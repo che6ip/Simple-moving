@@ -1,0 +1,34 @@
+{
+  "id": "simple-moving",
+  "title": "Simple moving",
+  "description": "Простое перемещение токенов по клику: выберите токен на сцене, кликните в видимой ему области — модуль построит и покажет маршрут (линия пути, маркер конечной точки, подсветка клетки и дистанция). Второй клик по этой же точке перемещает токен. Ctrl+клик добавляет промежуточный пункт, правый клик или Escape отменяют план.",
+  "version": "0.1.2",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.369"
+  },
+  "authors": [
+    {
+      "name": "Simple Moving contributors"
+    }
+  ],
+  "esmodules": ["simple-moving.js"],
+  "languages": [
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "readme": "README.md",
+  "changelog": "README.md",
+  "license": "MIT",
+  "flags": {},
+  "active": true,
+  "coreVersion": "14.369"
+}
